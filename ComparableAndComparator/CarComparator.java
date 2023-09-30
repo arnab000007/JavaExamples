@@ -9,6 +9,7 @@ public class CarComparator implements Comparator<Car> {
         // +ve -> this > other
         // -ve -> this < other
         // 0 -> this == other
+
         return  o2.getSpeed() - o1.getSpeed();
     }
 }

@@ -30,6 +30,7 @@ public class Car implements Comparable<Car> {
         // +ve -> this > other
         // -ve -> this < other
         // 0 -> this == other
+
         return this.speed - o.getSpeed();
     }
 

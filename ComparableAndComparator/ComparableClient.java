@@ -15,6 +15,7 @@ public class ComparableClient {
         pQ.add(new Car(50, 74));
         pQ.add(new Car(75, 100));
 
+
         while(!pQ.isEmpty()) {
             System.out.println(pQ.poll());
         }
